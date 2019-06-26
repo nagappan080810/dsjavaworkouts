@@ -1,5 +1,6 @@
 ﻿# dsjavaworkouts
 Project that contains programs about data structures, algorithms, coding interview solutions
+
 Author : Nagappan Subramanian (SRN)
 
 Package Name : com.nagappans.dsalgolab
@@ -9,7 +10,8 @@ Class                           | TestClass
 ---------------------------------------------------------------
 IStack, Stack                   | StackTest
     Stack class implemented with pop, push, peek operation with isempty and isfull checks for a fixed number of elements.
-
+    
+    
 ---------------------------------------------------------------
 MinElementStack                 | MinElementStackTest
     Using stack find minimum element at any point of time with time complexity O(1). Approach is to have another min stack with main stack
