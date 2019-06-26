@@ -7,18 +7,20 @@ package com.nagappans.dsalgolab;
 public class RedundantBraces {
     public int braces(String str) {
         Stack<Character> exprStack = new Stack<>();
-        boolean isSecondQuote = false;
         for (int i=0; i<str.length(); i++) {
             Character exprChar = str.charAt(i);
-            if (exprChar!=')' && (exprChar!='\"' && isSecondQuote ) ) {
+            if (exprChar!=')') {
                 exprStack.push(str.charAt(i));
             } else {
-                int cnt=0;
-                while(exprStack.pop()!='(' ) {
+                int cnt=0, optcnt=0;
+                for(Character temp = exprStack.pop(); temp!='('; temp=exprStack.pop()) {
                     cnt++;
+                    if (temp=='+' || temp=='-' || temp=='*' || temp=='/') {
+                        optcnt++;
+                    }
                 }
                 //there is no expression, so return it as redudant braces..
-                if (cnt==0) {
+                if (cnt==0 || optcnt==0) {
                     return 1;
                 }
             }

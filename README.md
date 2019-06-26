@@ -32,3 +32,10 @@ PrevSmallerUtil                 | PrevSmallerUtilTest
 RedudantBraces                  | RedudantBracesTest
     Given a valid mathematical expression, check whether braces are redudant at any position.
 
+------------------------------------------------------------------
+BoundlessStack                  | BoundlessStackTest
+    Stack is created with fixed size of internal array so if the limit is reached, it automatically expands the arr to 0
+    .5 times more so that stack will not overflow and have any number of elements pushed.
+
+
+
