@@ -38,6 +38,27 @@ RedudantBraces                  | RedudantBracesTest
 BoundlessStack                  | BoundlessStackTest
     Stack is created with fixed size of internal array so if the limit is reached, it automatically expands the arr to 0
     .5 times more so that stack will not overflow and have any number of elements pushed.
+------------------------------------------------------------------
+FindUniqueElementInArray        | FindUniqueElementInArrayTest
+    Find unique element in the array where all elements are repeated twice expect one
+    O(n)
+------------------------------------------------------------------
+BinarySearchSortedRotatedArray  | BinarySearchSortedRotatedArrayTest
+    Find elem in sorted rotated array  in logn complexity.
+------------------------------------------------------------------
+MoveZeroesToEndInArray | MoveZeroesToEndInArrayTest
+    Move zeroes to the end in the array
+------------------------------------------------------------------
+NextGreatestUtil | NextGreatestUtilTest
+    Next greatest element in the array for each element in the array
+------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
