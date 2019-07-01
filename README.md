@@ -5,11 +5,11 @@ Author : Nagappan Subramanian (SRN)
 
 Package Name : com.nagappans.dsalgolab.stacks
 
-Class                           | TestClass
-Description
+Class                           | TestClass     
+`Description`
 ---------------------------------------------------------------
-IStack, Stack                   | StackTest
-Stack class implemented with pop, push, peek operation with isempty and isfull checks for a fixed number of elements.
+IStack, Stack                   | StackTest     
+`Stack class implemented with pop, push, peek operation with isempty and isfull checks for a fixed number of elements.`
     
 ---------------------------------------------------------------
 MinElementStack                 | MinElementStackTest
