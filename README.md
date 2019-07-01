@@ -3,7 +3,7 @@ Project that contains programs about data structures, algorithms, coding intervi
 
 Author : Nagappan Subramanian (SRN)
 
-Package Name : com.nagappans.dsalgolab.stacks
+**Package Name : com.nagappans.dsalgolab.stacks**
 
 Class                           | TestClass     
 ---------------------------------------------------------------
@@ -52,7 +52,7 @@ StockSpanProblem | StockSpanProblem
     price. Implemented by stack with O(n) complexity.`
 
 
-Package Name : com.nagappans.dsalgolab.arrays
+**Package Name : com.nagappans.dsalgolab.arrays**
 
 Class                           | TestClass
 ---------------------------------------------------------------
@@ -65,7 +65,7 @@ MoveZeroesToEndInArray | MoveZeroesToEndInArrayTest
     
 ------------------------------------------------------------------
 
-Package Name : com.nagappans.dsalgolab.bitwiseoperations
+**Package Name : com.nagappans.dsalgolab.bitwiseoperations**
 
 Class                           | TestClass
 ---------------------------------------------------------------
@@ -76,7 +76,7 @@ FindUniqueElementInArray        | FindUniqueElementInArrayTest
     
 ------------------------------------------------------------------
 
-Package Name : com.nagappans.dsalgolab.strings
+**Package Name : com.nagappans.dsalgolab.strings**
 
 Class                           | TestClass
 ---------------------------------------------------------------
