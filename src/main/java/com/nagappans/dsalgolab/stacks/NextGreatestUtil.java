@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.stacks;
 
 public class NextGreatestUtil {
 
@@ -38,18 +38,18 @@ public class NextGreatestUtil {
          *            input array
          */
         /*public static void nextElement(int[] arr) {
-            Stack<Integer> stack = new Stack<>();
-            stack.push(arr[0]);
+            Stack<Integer> stacks = new Stack<>();
+            stacks.push(arr[0]);
 
             for (int i = 1; i < arr.length; i++) {
-                while (!stack.isEmpty() && arr[i] > stack.peek()) {
-                    System.out.println(stack.pop() + " --> " + arr[i]);
+                while (!stacks.isEmpty() && arr[i] > stacks.peek()) {
+                    System.out.println(stacks.pop() + " --> " + arr[i]);
                 }
-                stack.push(arr[i]);
+                stacks.push(arr[i]);
             }
 
-            while (!stack.isEmpty())
-                System.out.println(stack.pop() + " --> " + -1);
+            while (!stacks.isEmpty())
+                System.out.println(stacks.pop() + " --> " + -1);
 
         }
 

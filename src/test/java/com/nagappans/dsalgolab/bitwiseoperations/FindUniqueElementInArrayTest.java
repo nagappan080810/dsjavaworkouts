@@ -1,5 +1,6 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.bitwiseoperations;
 
+import com.nagappans.dsalgolab.bitwiseoperations.FindUniqueElementInArray;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

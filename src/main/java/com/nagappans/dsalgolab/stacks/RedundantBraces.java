@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.stacks;
 
 /*
  * Solution to the redudant braces - check whether has redundant braces to yes(1) or no(0).

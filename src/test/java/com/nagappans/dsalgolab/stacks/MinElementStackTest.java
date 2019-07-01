@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.stacks;
 
 import org.junit.Test;
 

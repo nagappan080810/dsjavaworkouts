@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.stacks;
 
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class StackTest {
     @Test(expected = RuntimeException.class)
     public void testPushForOverflow() {
         Stack<Integer> stack = new Stack<>();
-        for (int num=1; num<=6; num++) {
+        for (int num=1; num<=11; num++) {
             stack.push(num);
         }
         ArrayList<Integer> test;
@@ -23,7 +23,7 @@ public class StackTest {
         Stack<Integer> stack = new Stack<>();
         try {
             stack.pop();
-            fail("It should have failed for empty stack");
+            fail("It should have failed for empty stacks");
         } catch(Exception exception) {
             assertEquals("Stack is Empty", exception.getMessage());
         }

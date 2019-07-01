@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.arrays;
 /*
  * sorted and rotated array
  * eg: 68, 70, 72, 4, 11, 12, 17, 19, 24

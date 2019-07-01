@@ -3,14 +3,13 @@ Project that contains programs about data structures, algorithms, coding intervi
 
 Author : Nagappan Subramanian (SRN)
 
-Package Name : com.nagappans.dsalgolab
+Package Name : com.nagappans.dsalgolab.stacks
 
 Class                           | TestClass
     Description
 ---------------------------------------------------------------
 IStack, Stack                   | StackTest
     Stack class implemented with pop, push, peek operation with isempty and isfull checks for a fixed number of elements.
-    
     
 ---------------------------------------------------------------
 MinElementStack                 | MinElementStackTest
@@ -43,18 +42,46 @@ FindUniqueElementInArray        | FindUniqueElementInArrayTest
     Find unique element in the array where all elements are repeated twice expect one
     O(n)
 ------------------------------------------------------------------
+NextGreatestUtil | NextGreatestUtilTest
+    Next greatest element in the array for each element in the array
+------------------------------------------------------------------
+StockSpanProblem | StockSpanProblem
+    Stock price list for each day will be given. need to find the number of days it is lesser or equal to current day
+    price. Implemented by stack with O(n) complexity.
+
+
+Package Name : com.nagappans.dsalgolab.arrays
+
+Class                           | TestClass
+    Description
+---------------------------------------------------------------
 BinarySearchSortedRotatedArray  | BinarySearchSortedRotatedArrayTest
     Find elem in sorted rotated array  in logn complexity.
 ------------------------------------------------------------------
 MoveZeroesToEndInArray | MoveZeroesToEndInArrayTest
     Move zeroes to the end in the array
 ------------------------------------------------------------------
-NextGreatestUtil | NextGreatestUtilTest
-    Next greatest element in the array for each element in the array
+
+Package Name : com.nagappans.dsalgolab.bitwiseoperations
+
+Class                           | TestClass
+    Description
+---------------------------------------------------------------
+FindUniqueElementInArray        | FindUniqueElementInArrayTest
+    Find unique element in the array where all elements are repeated twice expect one.
+    Hint : 1 ^ 1 = 0
+    O(n)
 ------------------------------------------------------------------
 
+Package Name : com.nagappans.dsalgolab.strings
 
-
+Class                           | TestClass
+    Description
+---------------------------------------------------------------
+ReverseString        | ReverseStringTest
+    Reverse string by diving the string by two and then swap the characters.
+    Time complexity: O(n)  | Space Complexity: O(1)
+------------------------------------------------------------------
 
 
 

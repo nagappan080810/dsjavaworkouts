@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.bitwiseoperations;
 
 /*
  * Given an array of integers, every element appears twice expect one element.

@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.stacks;
 
 public class MinStackWithoutExtraSpace implements IStack<Integer> {
     Stack<Integer> mainStack = new Stack<>();

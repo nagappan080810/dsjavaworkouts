@@ -1,5 +1,6 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.arrays;
 
+import com.nagappans.dsalgolab.arrays.BinarySearchSortedRotatedArray;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

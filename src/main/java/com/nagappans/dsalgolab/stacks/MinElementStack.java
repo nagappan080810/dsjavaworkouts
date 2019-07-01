@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.stacks;
 
 public class MinElementStack implements IStack<Integer>{
     private Stack<Integer> mainStack = new Stack<>();

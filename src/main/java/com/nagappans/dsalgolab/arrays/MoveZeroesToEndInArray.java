@@ -1,4 +1,4 @@
-package com.nagappans.dsalgolab;
+package com.nagappans.dsalgolab.arrays;
 
 public class MoveZeroesToEndInArray {
     public int[] moveZeroes(int[] arr) {
