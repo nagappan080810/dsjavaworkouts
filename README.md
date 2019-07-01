@@ -89,6 +89,12 @@ FindUniqueElementInArray        | FindUniqueElementInArrayTest
     
 ------------------------------------------------------------------
 
+ArithmeticWithoutArithmeticOperators | ArithmeticWithoutArithmeticOperatorsTest
+
+    `Arithmetic operations are add, multiply without arithmetic operators. It has been done by bitwise operations.`
+
+------------------------------------------------------------------
+
 **Package Name : com.nagappans.dsalgolab.strings**
 
 **Class              | TestClass**
