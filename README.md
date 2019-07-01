@@ -23,10 +23,11 @@ MinStackWithoutExtraSpace       | MinStackWithoutExtraSpaceTest
 
 ------------------------------------------------------------------
 PrevSmallerUtil                 | PrevSmallerUtilTest
-    `In a input array, find the nearest smaller number, if not available have it as -1
-        eg: i/p: [4, 5, 2, 10, 8]
-            o/p: [-1, 4, -1, 2, 2]
-    It is implemented with stack having previous smaller linked from each node in the stack. Time complexity O(n^2).`
+`In a input array, find the nearest smaller number, if not available have it as -1
+ eg: i/p: [4, 5, 2, 10, 8]
+     o/p: [-1, 4, -1, 2, 2]
+ It is implemented with stack having previous smaller linked from each node in the stack. Time complexity O(n^2).`
+ 
 ------------------------------------------------------------------
 RedudantBraces                  | RedudantBracesTest
     `Given a valid mathematical expression, check whether braces are redudant at any position.`
@@ -35,13 +36,16 @@ RedudantBraces                  | RedudantBracesTest
 BoundlessStack                  | BoundlessStackTest
     `Stack is created with fixed size of internal array so if the limit is reached, it automatically expands the arr to 0
     .5 times more so that stack will not overflow and have any number of elements pushed.`
+    
 ------------------------------------------------------------------
 FindUniqueElementInArray        | FindUniqueElementInArrayTest
     `Find unique element in the array where all elements are repeated twice expect one
     O(n)`
+
 ------------------------------------------------------------------
 NextGreatestUtil | NextGreatestUtilTest
     `Next greatest element in the array for each element in the array`
+
 ------------------------------------------------------------------
 StockSpanProblem | StockSpanProblem
     `Stock price list for each day will be given. need to find the number of days it is lesser or equal to current day
@@ -54,9 +58,11 @@ Class                           | TestClass
 ---------------------------------------------------------------
 BinarySearchSortedRotatedArray  | BinarySearchSortedRotatedArrayTest
     `Find elem in sorted rotated array  in logn complexity.`
+    
 ------------------------------------------------------------------
 MoveZeroesToEndInArray | MoveZeroesToEndInArrayTest
     `Move zeroes to the end in the array`
+    
 ------------------------------------------------------------------
 
 Package Name : com.nagappans.dsalgolab.bitwiseoperations
@@ -67,6 +73,7 @@ FindUniqueElementInArray        | FindUniqueElementInArrayTest
     `Find unique element in the array where all elements are repeated twice expect one.
     Hint : 1 ^ 1 = 0
     O(n)`
+    
 ------------------------------------------------------------------
 
 Package Name : com.nagappans.dsalgolab.strings
@@ -76,6 +83,7 @@ Class                           | TestClass
 ReverseString        | ReverseStringTest
     `Reverse string by diving the string by two and then swap the characters.
     Time complexity: O(n)  | Space Complexity: O(1)`
+    
 ------------------------------------------------------------------
 
 
