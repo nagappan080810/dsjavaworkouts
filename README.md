@@ -61,6 +61,13 @@ StockSpanProblem | StockSpanProblem
     `Stock price list for each day will be given. need to find the number of days it is lesser or equal to current day
     price. Implemented by stack with O(n) complexity.`
 
+------------------------------------------------------------------
+QueueWithStack | QueueWithStack
+
+    `Implemented queue with two stacks, one stack used at the time of enqueue operation and another at the time of
+    dequeue operation.`
+
+------------------------------------------------------------------
 
 **Package Name : com.nagappans.dsalgolab.arrays**
 
@@ -87,6 +94,14 @@ FindUniqueElementInArray        | FindUniqueElementInArrayTest
     Hint : 1 ^ 1 = 0
     O(n)`
     
+------------------------------------------------------------------
+
+SpotUniqueRepeatedNTimes       | SpotUniqueRepeatedNTimesTest
+
+    `Find unique element in the array where all elements are repeated N Times.
+    Hint : Apply bitmask to each bit position and then sum and do a modulus to get the number back
+    O(n)`
+
 ------------------------------------------------------------------
 
 ArithmeticWithoutArithmeticOperators | ArithmeticWithoutArithmeticOperatorsTest
