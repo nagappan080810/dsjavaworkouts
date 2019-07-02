@@ -69,6 +69,20 @@ QueueWithStack | QueueWithStack
 
 ------------------------------------------------------------------
 
+ReversableStack | ReversableStackTest
+
+    `Pushing elements to the stack and then reverse will reverse the elements completely. It is done by linking the
+    nodes`
+
+------------------------------------------------------------------
+
+BalancedParanthesis | BalancedParanthesisTest
+
+    `BalancedParanthesis check whether expression have balanced paranthesis if not return false. It is implemented by
+    pushing character to stack until closing paranthesis is seen.`
+
+------------------------------------------------------------------
+
 **Package Name : com.nagappans.dsalgolab.arrays**
 
 **Class                         | TestClass**
