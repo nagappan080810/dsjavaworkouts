@@ -69,7 +69,14 @@ QueueWithStack | QueueWithStack
 
 ------------------------------------------------------------------
 
+SortStack | SortStackTest
+
+    `Sort stack elements using recursive approach`
+
+------------------------------------------------------------------
+
 ReversableStack | ReversableStackTest
+RecursiveReverseStack | RecursiveReverseStackTest
 
     `Pushing elements to the stack and then reverse will reverse the elements completely. It is done by linking the
     nodes`
@@ -96,6 +103,11 @@ MoveZeroesToEndInArray | MoveZeroesToEndInArrayTest
 
     `Move zeroes to the end in the array`
     
+------------------------------------------------------------------
+KnotsAndCrossStreak | KnotsAndCrossStreakTest
+
+    `KnotsAndCross streak has to be counted and returned`
+
 ------------------------------------------------------------------
 
 **Package Name : com.nagappans.dsalgolab.bitwiseoperations**
