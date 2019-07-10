@@ -110,6 +110,24 @@ KnotsAndCrossStreak | KnotsAndCrossStreakTest
 
 ------------------------------------------------------------------
 
+
+**Package Name : com.nagappans.dsalgolab.queues**
+
+**Class                         | TestClass**
+
+IQueue|CircularQueue            | CircularQueueTest
+
+    `Circular queue with array implementation if arr crosses the bound it goes to the front part of the array.`
+
+------------------------------------------------------------------
+
+IQueue|DynamicQueue            | DynamicQueueTest
+
+    `Dynamic queue which enlarges the array automatically when the internal array becomes full.`
+
+------------------------------------------------------------------
+
+
 **Package Name : com.nagappans.dsalgolab.bitwiseoperations**
 
 **Class                         | TestClass**
