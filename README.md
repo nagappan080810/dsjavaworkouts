@@ -165,6 +165,17 @@ ReverseString        | ReverseStringTest
     
 ------------------------------------------------------------------
 
+**Package Name : com.nagappans.dsalgolab**
+
+**Class              | TestClass**
+
+LruCache        | LruCacheTest
+
+    `Least recently used cache implementation done with hashmap and doubly linkedlist implementation
+    Time complexity: O(1)  | Space Complexity: O(n)`
+
+------------------------------------------------------------------
+
 
 
 
