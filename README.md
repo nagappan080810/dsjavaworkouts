@@ -165,11 +165,32 @@ ReverseString        | ReverseStringTest
     
 ------------------------------------------------------------------
 
+**Class              | TestClass**
+
+CheckAnagram         | CheckAnagramTest
+
+    `Check given both strings are anagram - two implementations .
+     1. HashMap Approach 2. Bitwise operations`
+
+------------------------------------------------------------------
+
+**Package Name : com.nagappans.dsalgolab.linkedlist**
+
+**Class                              | TestClass**
+
+LinkedList,HasCycleLinkedList        | LinkedList,HasCycleLinkedListTest
+
+    `Detect a cycle in linked list - two implementations: one hashset approach to find the duplicates, other is floyd's
+    cycle approach.
+    Time complexity: O(n)  | Space Complexity: O(1)`
+
+------------------------------------------------------------------
+
 **Package Name : com.nagappans.dsalgolab**
 
 **Class              | TestClass**
 
-LruCache        | LruCacheTest
+LruCache             | LruCacheTest
 
     `Least recently used cache implementation done with hashmap and doubly linkedlist implementation
     Time complexity: O(1)  | Space Complexity: O(n)`
