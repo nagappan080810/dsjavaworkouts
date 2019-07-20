@@ -128,6 +128,12 @@ IQueue|DynamicQueue            | DynamicQueueTest
 ------------------------------------------------------------------
 
 
+ReverseQueueUtil               | ReverseQueueUtilTest
+
+    `Reverse queue util is to reverse the queue element by stack or recursion`
+
+------------------------------------------------------------------
+
 **Package Name : com.nagappans.dsalgolab.bitwiseoperations**
 
 **Class                         | TestClass**
@@ -151,6 +157,25 @@ SpotUniqueRepeatedNTimes       | SpotUniqueRepeatedNTimesTest
 ArithmeticWithoutArithmeticOperators | ArithmeticWithoutArithmeticOperatorsTest
 
     `Arithmetic operations are add, multiply without arithmetic operators. It has been done by bitwise operations.`
+
+------------------------------------------------------------------
+
+**Package Name : com.nagappans.dsalgolab.trees**
+
+**Class              | TestClass**
+
+BinaryHeap           | BinaryHeapTest
+
+    `Binary heap has two childrens which will be greater than the parent which will be min heap. This data structure
+    has been created with add, delete, extractmin operations. So to use in Priority Queue`
+
+------------------------------------------------------------------
+
+
+BinarySearchTree     | BinarySearchTreeTest
+
+    `Search an element in sorted array by looking at the mid of the element and then go left or right of the sub array.
+    This search will happen with element lesser than k level of it`
 
 ------------------------------------------------------------------
 
