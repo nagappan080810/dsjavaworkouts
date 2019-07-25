@@ -49,6 +49,12 @@ public class LinkedList<T>  implements Iterable<T>{
         return newNode;
     }
 
+    public ListNode<T> getHead() {
+        return this.head;
+    }
+
+    public void setHead(ListNode<T> node) { this.head = node;}
+
     public void add(ListNode<T> node) {
         if (tail!=null) {
             tail.next = node;
@@ -60,7 +66,7 @@ public class LinkedList<T>  implements Iterable<T>{
 
     public void print() {
         ListNode<T> current = head;
-        while (current !=null) {
+        while (current != null) {
             System.out.println("value "+current.elem);
             current = current.next;
         }

@@ -211,6 +211,26 @@ LinkedList,HasCycleLinkedList        | LinkedList,HasCycleLinkedListTest
 
 ------------------------------------------------------------------
 
+
+**Class                              | TestClass**
+
+PrintNoOfOccurrences                 | PrintNoOfOccurrencesTest
+
+    `Print no of occurences of each element in the linked list by iterating through the list`
+
+------------------------------------------------------------------
+
+
+**Class                              | TestClass**
+
+ReverseLinkedList                    | ReverseLinkedListTest
+
+    `Reverse linked list has two utility methods one to reverse the linked list by recursion and palindrome match by
+    recursive approach in linked list`
+
+------------------------------------------------------------------
+
+
 **Package Name : com.nagappans.dsalgolab**
 
 **Class              | TestClass**
