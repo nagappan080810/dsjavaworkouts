@@ -109,6 +109,12 @@ KnotsAndCrossStreak | KnotsAndCrossStreakTest
     `KnotsAndCross streak has to be counted and returned`
 
 ------------------------------------------------------------------
+DutchManFlagProblem | DutchManFlagProblemTest
+
+    `DutchMan flag problem to segregate 1,2 and 3's using linkelist without extra space`
+
+------------------------------------------------------------------
+
 
 
 **Package Name : com.nagappans.dsalgolab.queues**
@@ -220,7 +226,6 @@ PrintNoOfOccurrences                 | PrintNoOfOccurrencesTest
 
 ------------------------------------------------------------------
 
-
 **Class                              | TestClass**
 
 ReverseLinkedList                    | ReverseLinkedListTest
@@ -230,6 +235,13 @@ ReverseLinkedList                    | ReverseLinkedListTest
 
 ------------------------------------------------------------------
 
+**Class                              | TestClass**
+
+SegregateOddEvenNodes                | SegregateOddEvenNodesTest
+
+    `Segregate odd position nodes and even position nodes at the begining and end of the list`
+
+------------------------------------------------------------------
 
 **Package Name : com.nagappans.dsalgolab**
 
