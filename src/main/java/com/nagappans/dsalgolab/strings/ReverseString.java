@@ -14,4 +14,18 @@ public class ReverseString {
         }
         return new String(inputChar);
     }
+
+    public String reverse1(String input) {
+        if (input==null) return null;
+
+        char inputChar[] = input.toCharArray();
+        int startPos = 0, endPos = inputChar.length-1;
+        char temp;
+        while(startPos<endPos) {
+            temp = inputChar[startPos];
+            inputChar[startPos++] = inputChar[endPos];
+            inputChar[endPos--] = temp;
+        }
+        return new String(inputChar);
+    }
 }
