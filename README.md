@@ -114,6 +114,21 @@ DutchManFlagProblem | DutchManFlagProblemTest
     `DutchMan flag problem to segregate 1,2 and 3's using linkelist without extra space`
 
 ------------------------------------------------------------------
+ZigZagArrangement | ZigZagArrangementTest
+
+    `Zig zag arrangement to arrange the elements in zig zag fashion like a0 < a1 > a2 < a3`
+
+------------------------------------------------------------------
+ReplaceRightHighestElement | ReplaceRightHighestElementTest
+
+    `Replace each element with right most highest element if no right element make it as -1`
+
+------------------------------------------------------------------
+ArraySumEqualX | ArraySumEqualXTest
+
+    `Choice pair of elements whose sum is given sum x`
+
+------------------------------------------------------------------
 
 
 
