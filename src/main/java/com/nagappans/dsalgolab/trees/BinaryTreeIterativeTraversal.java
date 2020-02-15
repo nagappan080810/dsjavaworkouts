@@ -2,7 +2,7 @@ package com.nagappans.dsalgolab.trees;
 
 import java.util.*;
 
-public class BinaryTreePreorderIterative {
+class BinaryTreeIterativeTraversal {
     public class TreeNode {
        int val;
        TreeNode left;
@@ -12,7 +12,7 @@ public class BinaryTreePreorderIterative {
 
      TreeNode root;
 
-     public BinaryTreePreorderIterative(int arr[]) {
+     public BinaryTreeIterativeTraversal(int arr[]) {
 
          int level = 0;
          Queue<TreeNode> queue= new ArrayDeque<>();

@@ -220,6 +220,15 @@ CheckAnagram         | CheckAnagramTest
 
 ------------------------------------------------------------------
 
+**Class              | TestClass**
+
+StringPermutation    | StringPermutationTest
+
+    `String Permutation - permutation of different strings combinations
+     Different string combinations created with input string values`
+
+------------------------------------------------------------------
+
 **Package Name : com.nagappans.dsalgolab.linkedlist**
 
 **Class                              | TestClass**
